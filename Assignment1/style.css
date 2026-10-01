@@ -1,0 +1,157 @@
+/* .navebar{
+    background-color: #36c426;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 200px;
+}
+a{
+    margin-left: 50px;
+   text-align: left;
+} */
+/* img{ */
+    /* margin-left: 1px;
+    margin-top: 10px;
+    
+}
+h1{
+    text-align: center;
+    color: #9fc19c;
+    margin-top: -130px;
+    margin-left: 0px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 30px;
+    background-color: #36c426;
+
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo h1{
+    font-size:1.5rem
+}
+.navbar{
+    display: flex;
+    gap:50px;
+}
+.rr{
+     /* background-image: url("images.jpg" ); */
+     background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.8) 50% , #d00010 100%), url("images.jpg");
+     background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 120px;
+    margin-right: 50px;
+}
+.para{
+    margin-left: 30px;
+    margin-top: 20px;
+    
+    
+}
+.courses,h1{
+    margin-left: 30px;
+    
+}
+
+th,td{
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+
+}
+tr{
+    text-align: center;
+}
+table{
+    width: 100%;
+
+}
+
+h3{
+    word-spacing: 150px;
+}
+/* .h1{
+    margin-left:200px;
+    margin-top:70px
+     */
+   
+
+.choose h1{
+    text-align:center;
+    text-decoration:underline;
+    
+}
+/* .h2{
+    text-align:right;
+    margin-top:-30px;
+    margin-right:30px;
+    
+
+}
+.h3{
+    text-align:center;
+    margin-top:-40;
+    margin-bottom:40
+   
+    
+}
+h4{} */
+.para1{
+    display: flex;
+}
+
+#p1{
+    margin-left:20px;
+    margin:30px;
+    padding:20px;
+    border-radius:5px;
+    width:300px;
+    border:1px solid black;
+    height:100px;
+    margin-bottom:50px;
+}
+#p2{
+    /* text-align:center; */
+    margin:30px;
+    margin-left:20px;
+    padding:20px;
+    border-radius:5px;
+    border:1px solid black;
+    width:300px;
+    height:100px;
+    margin-bottom:50px;
+}
+#p3{
+    margin-left:20px;
+    margin:30px;
+    padding:20px;
+    border-radius:5px;
+    text-align:right;
+    border:1px solid black;
+    width:300px;
+    height:100px;
+    margin-bottom:50px;
+}
